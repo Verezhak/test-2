@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Harvest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="header container">
+        <a class="logo-link-header" href="./index.html">
+          <svg class="logo-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-logo.svg"></use>
+          </svg>
+          <svg class="logo-text" width="148" height="12">
+            <use href="./images/icons.svg#icon-logo-text.svg"></use>
+          </svg>
+        </a>
+
+        <button class="btn-menu" type="button">
+          <svg class="icon-burger" width="32" height="32">
+            <use href="./images/icons.svg#icon-burger.svg"></use>
+          </svg>
+        </button>
+        <div class="nav-container">
+          <nav class="navigation">
+            <ul class="header-list">
+              <li>
+                <a class="header-link" href="#works">How It Works</a>
+              </li>
+              <li>
+                <a class="header-link" href="#vegetables">Vegetables</a>
+              </li>
+              <li>
+                <a class="header-link" href="#reviews">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="button-header" href="#covered">Shop now</a>
+        </div>
+      </div>
+      <div class="backdrop">
+        <div class="menu-mobile">
+          <button class="btn-close" type="button">
+            <svg class="icon-close" width="32" height="32">
+              <use href="./images/icons.svg#icon-close.svg"></use>
+            </svg>
+          </button>
+          <nav class="nav-mobile">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a class="menu-link" href="#works">How It Works</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#vegetables">Vegetables</a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="#reviews">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="button-menu-mobile" href="#covered">Shop now</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-text-con">
+            <h1 class="hero-title">organic vegetables to your diet today!</h1>
+            <p class="hero-text">
+              Our expertly curated vegetable baskets are made with the freshest,
+              highest quality vegetables available. Fresh Harvest Box has got
+              you covered. Fresh, high-quality vegetables in expertly curated
+              vegetable baskets delivered to you.
+            </p>
+          </div>
+          <div class="hero-img"></div>
+        </div>
+      </section>
+      <section class="section-work" id="works">
+        <div class="work-container container">
+          <h2 class="visually-hidden">how it works</h2>
+          <div class="shadow">
+            <div class="shadow-img">
+              <picture>
+                <source
+                  media="(max-width:767px)"
+                  srcset="./images/work-mob.jpg 1x, ./images/work-mob@2x.jpg 2x"
+                />
+                <source
+                  media="(max-width:1279px)"
+                  srcset="./images/work-tab.jpg 1x, ./images/work-tab@2x.jpg 2x"
+                />
+                <source
+                  media="(min-width:1280px)"
+                  srcset="./images/work-des.jpg 1x, ./images/work-des@2x.jpg 2x"
+                />
+                <img
+                  class="work-img"
+                  srcset="./images/work-tab.jpg 1x, ./images/work-tab@2x.jpg 2x"
+                  src="./images/work-tab.jpg"
+                  alt=""
+                />
+              </picture>
+              <span class="overlay"></span>
+            </div>
+          </div>
+          <div class="how-it-works">
+            <h3 class="work-subtitle">
+              To order your <span>vegetable</span> basket, simply follow these
+              <span>easy steps</span>
+            </h3>
+            <p class="work-text">
+              Our baskets are assembled with care and delivered straight to your
+              doorstep, so you can enjoy the taste of fresh fruit without ever
+              leaving your home.
+            </p>
+            <ol class="work-list">
+              <li class="work-item">
+                <p class="work-item-text">
+                  Just choose the <span>vegetable</span>you want to order by
+                  clicking on the checkboxes <span>next to it.</span>
+                </p>
+              </li>
+              <li class="work-item">
+                <p class="work-item-text">
+                  Click on the <span>basket</span>and fill out the form.
+                </p>
+              </li>
+              <li class="work-item">
+                <p class="work-item-text">
+                  Sit back and relax! Your <span>fresh vegetables</span> basket
+                  will be delivered.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <section class="discount-section" id="harwest">
+        <div class="discount container">
+          <h2 class="visually-hidden">Discount</h2>
+          <p class="discount-text">
+            <span class="discount-span">Discount up to 40%! </span>
+            Taste the vitamins and keep your health
+          </p>
+        </div>
+      </section>
+      <section class="vegetables-section" id="vegetables">
+        <div class="container">
+          <h2 class="section-title">organic <span>vegetables</span></h2>
+          <p class="vegetables-section-text">
+            Our organic vegetables are hand-picked from local farms and
+            delivered straight to your doorstep, ensuring that you get the
+            freshest and most nutritious produce possible.
+          </p>
+          <ul class="vegetables-list">
+            <li class="vegetables-item">
+              <h3 class="vegetables-subtitle">eggplant</h3>
+              <p class="vegetables-text">60 uah/kg</p>
+
+              <img
+                srcset="./images/eggplant.png 1x, ./images/eggplant@2x.png 2x"
+                src="./images/eggplant.png"
+                alt="eggplant"
+                width="282"
+                height="243"
+              />
+              <p class="vegetables-overlay">
+                Eggplants contain antioxidants, fiber, and trace elements such
+                as potassium, magnesium, copper, and vitamin C.
+              </p>
+            </li>
+            <li class="vegetables-item">
+              <h3 class="vegetables-subtitle">leek</h3>
+              <p class="vegetables-text">50 uah/kg</p>
+              <img
+                srcset="./images/leek.png 1x, ./images/leek@2x.png 2x"
+                src="./images/leek.png"
+                alt="leek"
+                width="282"
+                height="243"
+              />
+              <p class="vegetables-overlay">
+                Leek strengthens immunity, restores physical strength. It is
+                recommended as an antiseptic and antimicrobial agent.
+              </p>
+            </li>
+            <li class="vegetables-item">
+              <h3 class="vegetables-subtitle">mushrooms</h3>
+              <p class="vegetables-text">40 uah/kg</p>
+              <img
+                srcset="./images/mushrooms.png 1x, ./images/mushrooms@2x.png 2x"
+                src="./images/mushrooms.png"
+                alt="mushrooms"
+                width="282"
+                height="243"
+              />
+              <p class="vegetables-overlay">
+                Mushrooms contain potassium, magnesium, phosphorus, linoleic
+                acid, and also replenish the body with protein.
+              </p>
+            </li>
+            <li class="vegetables-item">
+              <h3 class="vegetables-subtitle">corn</h3>
+              <p class="vegetables-text">60 uah/kg</p>
+              <img
+                srcset="./images/corn.png 1x, ./images/corn@2x.png 2x"
+                src="./images/corn.png"
+                alt="corn"
+                width="282"
+                height="243"
+              />
+              <p class="vegetables-overlay">
+                Corn contains a lot of vitamins A and C, nicotinic acid,
+                potassium, calcium, sodium, phosphorus and magnesium.
+              </p>
+            </li>
+            <li class="vegetables-item">
+              <div class="item-overlay">
+                <h3 class="vegetables-subtitle">sweet potatoes</h3>
+                <p class="vegetables-text">50 uah/kg</p>
+                <img
+                  srcset="./images/potatoes.png 1x, ./images/potatoes@2x.png 2x"
+                  src="./images/potatoes.png"
+                  alt="potatoes"
+                  width="282"
+                  height="243"
+                />
+                <p class="vegetables-overlay">
+                  Sweet potatoes contain antioxidants, fiber and important
+                  micronutrients such as vitamins B6 and C.
+                </p>
+              </div>
+            </li>
+            <li class="vegetables-item">
+              <h3 class="vegetables-subtitle">carrot</h3>
+              <p class="vegetables-text">40 uah/kg</p>
+              <img
+                srcset="./images/carrot.png 1x, ./images/carrot@2x.png 2x"
+                src="./images/carrot.png"
+                alt="carrot"
+                width="282"
+                height="243"
+              />
+              <p class="vegetables-overlay">
+                Carrots contain a lot of vitamin A, which takes care of the
+                condition of the mucous membranes, skin and resists weakening of
+                vision.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <h2 class="reviews-title">reviews from our <span>customers</span></h2>
+          <p class="reviews-text">
+            Words of our customers: impressions and opinions about the quality
+            of our services and the freshness of our products.
+          </p>
+          <ul class="reviews-list">
+            <li class="reviews-item">
+              <img
+                class="reviews-img"
+                srcset="./images/john.jpg 1x, ./images/john@2x.jpg 2x"
+                src="./images/john.jpg"
+                alt="John Wax"
+              />
+
+              <h3 class="reviews-subtitle">John Wax</h3>
+              <p class="reviews-item-text">
+                These vegetables are my secret to delicious and healthy meals.
+                The quality is always at the highest level, the aroma and taste
+                are enchanting. I advise every fan of real products!
+              </p>
+            </li>
+            <li class="reviews-item">
+              <img
+                class="reviews-img"
+                srcset="./images/victoria.jpg 1x, ./images/victoria@2x.jpg 2x"
+                src="./images/victoria.jpg"
+                alt="Victoria Romashenko"
+              />
+
+              <h3 class="reviews-subtitle">Victoria Romashenko</h3>
+              <p class="reviews-item-text">
+                I love how fast and fresh the vegetables are delivered. Salads
+                always turn out so appetizing, and soups are real masterpieces.
+                The quality is impeccable!
+              </p>
+            </li>
+            <li class="reviews-item">
+              <img
+                class="reviews-img"
+                srcset="./images/ihor.jpg 1x, ./images/ihor@2x.jpg 2x"
+                src="./images/ihor.jpg"
+                alt="Ihor Trachuk"
+              />
+
+              <h3 class="reviews-subtitle">Ihor Trachuk</h3>
+              <p class="reviews-item-text">
+                Recently tried my fresh tomatoes and peppers - amazing! The
+                authenticity of the taste, as if from the garden directly to my
+                table. It is now my main vegetable supplier.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="covered" id="covered">
+        <div class="container">
+          <h2 class="covered-title">
+            Fresh <span>Harvest</span> Box has got you covered
+          </h2>
+          <p class="covered-text">
+            Our boxes are packed with delicious, nutritious vegetables, perfect
+            for anyone looking to eat healthier or support local farmers. Order
+            your box today and start enjoying the best that nature has to offer!
+          </p>
+          <div>
+            <div class="covered-container">
+              <div class="form-container">
+                <p class="form-title">
+                  Ordering <span class="from-us">from us</span> is quick and
+                  easy! Fill out <span class="the-form">the form</span> below
+                  and we will contact you!
+                </p>
+                <form class="form">
+                  <label>
+                    <input
+                      class="input"
+                      type="text"
+                      name="username"
+                      placeholder="Full Name"
+                      pattern="^[A-Za-z]+ [A-Za-z]+$"
+                      required
+                    />
+                    <span class="span-form"></span>
+                  </label>
+                  <label>
+                    <input
+                      class="input"
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+                      pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                      required
+                    />
+                    <span class="span-form"></span>
+                  </label>
+                  <label>
+                    <textarea class="textarea" placeholder="Comment"></textarea>
+                  </label>
+                  <button class="btn-form" type="submit">Send</button>
+                </form>
+              </div>
+              <div class="covered-soc-container">
+                <div class="con-img">
+                  <picture>
+                    <source
+                      media="(max-width:767px)"
+                      srcset="
+                        ./images/form-mob.jpg    1x,
+                        ./images/form-mob@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width:1279px)"
+                      srcset="
+                        ./images/form-tab.jpg    1x,
+                        ./images/form-tab@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:1280px)"
+                      srcset="
+                        ./images/form-des.jpg    1x,
+                        ./images/form-des@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="covered-img"
+                      srcset="
+                        ./images/form-tab.jpg    1x,
+                        ./images/form-tab@2x.jpg 2x
+                      "
+                      src="./images/form-tab.jpg"
+                      alt=""
+                    />
+                  </picture>
+                  <span class="shadow-form"></span>
+                </div>
+                <p class="covered-soc-text">
+                  Follow us on our social networks:
+                </p>
+                <ul class="soc-list">
+                  <li class="soc-item">
+                    <a
+                      class="soc-link"
+                      target="_blank"
+                      href="https://www.instagram.com/goitclub/"
+                      >instagram<span>&#47;</span></a
+                    >
+                  </li>
+                  <li class="soc-item">
+                    <a
+                      class="soc-link"
+                      target="_blank"
+                      href="https://www.facebook.com/goITclub/"
+                      >facebook<span>&#47;</span></a
+                    >
+                  </li>
+                  <li class="soc-item">
+                    <a
+                      class="soc-link"
+                      target="_blank"
+                      href="https://www.youtube.com/c/GoIT"
+                      >youtube</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container container">
+        <div>
+          <a class="logo-link-footer" href="./index.html">
+            <svg class="logo-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-logo.svg"></use>
+            </svg>
+            <svg class="logo-text" width="148" height="12">
+              <use href="./images/icons.svg#icon-logo-text.svg"></use>
+            </svg>
+          </a>
+          <p class="footer-text">
+            Whether you're looking for a healthy snack or a thoughtful gift, our
+            fruit baskets are the perfect choice.
+          </p>
+        </div>
+
+        <div class="nav-add">
+          <nav class="footer-navigation">
+            <ul class="footer-list">
+              <li>
+                <a class="footer-link" href="#works">How It Works</a>
+              </li>
+              <li>
+                <a class="footer-link" href="#vegetables">Vegetables</a>
+              </li>
+              <li>
+                <a class="footer-link" href="#reviews">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="footer-address">
+            <ul class="address-list">
+              <li>
+                <a class="footer-add" href="tel:+380684439426"
+                  >+380 (68) 443-94-26</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-add"
+                  target="_blank"
+                  href="https://maps.app.goo.gl/GiQVn1s6yyVKMvyG9"
+                  >1678 S. Pioneer Road Salt Lake City UT 84104</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom container">
+        <ul class="footer-bottom-list">
+          <li>
+            <a class="footer-bottom-link" href="">
+              Privacy Policy <span class="footer-span">&#47;</span></a
+            >
+          </li>
+          <li><a class="footer-bottom-link" href="">Cookie settings</a></li>
+        </ul>
+        <p class="footer-bottom-text"><span>&#xa9;</span>Green Harvest 2023</p>
+      </div>
+    </footer>
+    <!-- <script src="./js/scroll"></script> -->
+    <script src="./js/close.js"></script>
+  </body>
+</html>
