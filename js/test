@@ -1,0 +1,13 @@
+
+let username = 'Poly'; 
+let message = `Username ${username} is ${username.length} characters long`;
+console.log(message);
+ username = 'Harambe';
+message = `Username ${username} is ${username.length} characters long`;
+console.log(message);
+ username = 'Billy';
+message = `Username ${username} is ${username.length} characters long`;
+console.log(message);
+ username = 'Joe';
+ message = `Username ${username} is ${username.length} characters long`;
+console.log(message);
